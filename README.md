@@ -16,3 +16,13 @@ http://www.youtube.com/user/c9ide.
 
 Happy coding!
 The Cloud9 IDE team
+
+File Metadata
+
+
+User Stories:
+<p>I can submit a FormData object that includes a file upload.</p>
+<p>When I submit something, I will receive the file size in bytes within the JSON response.</p>
+
+
+
