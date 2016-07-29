@@ -17,7 +17,7 @@ var path = require('path');
 //Connect mongoose to mongodb 
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://'+config.db.host+'/'+config.db.name);
+//mongoose.connect('mongodb://'+config.db.host+'/'+config.db.name);
 
 
 //Allows for uploading of files in express
