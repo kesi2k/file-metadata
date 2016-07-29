@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <title>File Metadata</title>
+    <style>
+        h3 {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1 class="header">API Basejump: File Metadata Microservice</h1>
+    <blockquote>User Stories:
+        <ol>
+            <li>I can submit a FormData object that includes a file upload.</li>
+            <li>When I submit something, I will receive the file size in bytes within the JSON response</li>
+        </ol>
+    </blockquote>
+    <h2>Example output:</h2>
+    { "filename": "bla_bla.jpg", "size": 9345345 }<br>
+    { "filename": "Bla_blah_blah.txt", "size": 1042 }
+        <form id="file-form" enctype="multipart/form-data" method="post"  action="/">
+			<input type="file" name="upl" id="imgfile" />
+			<input type="submit" value="Upload" id="submit" />
+		</form>
+    <script type="text/javascript" src="script.js"></script>
+</div>
+</body>
+</html>
